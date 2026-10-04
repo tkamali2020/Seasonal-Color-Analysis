@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Generated results
+results/*.csv
+!results/sample_results.csv
+
+# Python test/cache files
+.pytest_cache/
+.coverage
+htmlcov/
